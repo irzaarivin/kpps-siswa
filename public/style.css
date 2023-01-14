@@ -1,0 +1,500 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+
+.background-pr {
+	position: absolute;
+	top: 0;
+	background-color: navy;
+	right: 0;
+	left: 0;
+	height: 250px;
+	border-bottom-left-radius: 50%;
+	border-bottom-right-radius: 50%;
+	z-index: 0;
+}
+
+/* NAVIGATION */
+
+nav {
+	width: 100%;
+	position: fixed;
+	height: auto;
+	bottom: 10px;
+	background-color: transparent;
+}
+
+nav div.navigation {
+	display: flex;
+	justify-content: space-between;
+	background-color: white;
+	width: 95%;
+	border-radius: 25px;
+	box-shadow: 0px 0px 15px gray;
+	margin: 0 auto;
+	padding: 5px;
+	box-sizing: border-box;
+}
+
+nav div.navigation div.item {
+	padding: 10px;
+	border-radius: 20px;
+	font-family: "Montserrat", sans-serif;
+	font-weight: bolder;
+	transition: .3s;
+	width: 30%;
+	text-align: center;
+}
+
+nav div.navigation div.item p i {
+	font-size: 20px;
+}
+
+nav div.navigation div.item:hover,
+nav div.navigation div.item:active {
+	background-color: navy;
+	cursor: pointer;
+	color: white;
+}
+
+nav div.navigation div.active {
+	background-color: navy;
+	color: white;
+}
+
+/* HOMEPAGE */
+
+div#home {
+	background-color: transparent;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 50px 10px 70px 10px;
+	box-sizing: border-box;
+	z-index: 100;
+}
+
+div#home h1.poin {
+	position: relative;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+	color: white;
+	font-size: 40px;
+	width: 100%;
+	z-index: 1000;
+}
+
+div#home div.poinItem {
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+div#home div.poinItem p {
+	font-family: "Montserrat", sans-serif;
+}
+
+div#home div.circle {
+	background-color: white;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 30px 100px 10px 100px;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	line-height: 200px;
+	border: 3px solid navy;
+}
+
+div#home div.circle h1 {
+	font-size: 70px;
+	color: navy;
+	font-family: "Montserrat", sans-serif;
+}
+
+div#home p.name {
+	text-align: center;
+	color: navy;
+	font-family: "Arial", sans-serif;
+	font-size: 30px;
+	text-wrap: wrap;
+	margin-bottom: 30px;
+	font-weight: bolder;
+}
+
+div#home div.box {
+	/* background-color: #305454; */
+	background-color: transparent;
+	border-top: 40px solid navy;
+	border-bottom: 2px solid navy;
+	border-right: 2px solid navy;
+	border-left: 2px solid navy;
+	border-radius: 25px;
+	width: 90%;
+	margin: 0 auto 20px auto;
+	padding: 20px 10px;
+	color: black;
+	font-family: "Montserrat", sans-serif;
+}
+
+div#home div.box h3 {
+	text-align: center;
+}
+
+div#home div.box p {
+	line-height: 35px;
+	letter-spacing: 1px;
+}
+
+/* DOCUMENTS */
+
+div#documents {
+	width: 100%;
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+div#documents div.menuDocs {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	width: 100%;
+	top: 0;
+	left: 0;
+	right: 0;
+	background-color: navy;
+	color: white;
+	padding: 5px;
+	box-sizing: border-box;
+	align-items: center;
+	align-content: center;
+}
+
+div#documents div.menuDocs div.item {
+	background-color: transparent;
+	color: white;
+	border-radius: 10px;
+	width: 33%;
+	text-align: center;
+	padding: 10px 0;
+	transition: .1s;
+	align-items: center;
+	align-content: center;
+	font-size: 25px;
+}
+
+div#documents div.menuDocs div#tambahDokumen {
+	background-color: white;
+	color: navy;
+	align-items: center;
+	align-content: center;
+}
+
+div#documents div.menuDocs div#tambahDokumen i {
+	font-weight: bolder;
+	align-items: center;
+	align-content: center;
+	padding: 0;
+	margin: 0;
+}
+
+div#documents div.menuDocs div.item:hover,
+div#documents div.menuDocs div.item:active {
+	background-color: white;
+	color: navy;
+}
+
+div#documents div.menuDocs div#tambahDokumen:active {
+	transform: scale(.8);
+}
+
+div#documents h1 {
+	margin-top: 100px;
+	margin-bottom: 20px;
+	font-family: "Montserrat", sans-serif;
+	text-align: center;
+}
+
+div#documents div.switch {
+	width: 100%;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	display: flex;
+	justify-content: space-between;
+	border-radius: 20px;
+	height: auto;
+	overflow-x: hidden;
+	border: 1px solid navy;
+	box-sizing: border-box;
+}
+
+div#documents div.switch div.jenis {
+	padding: 10px;
+	width: 50%;
+	text-align: center;
+	font-family: "Montserrat", sans-serif;
+	border-radius: 20px;
+	transition: .1s;
+}
+
+div#documents div.switch div.jenis:hover,
+div#documents div.switch div.jenis:active {
+	background-color: navy;
+	color: white;
+}
+
+div#documents div.isiDocs {
+	margin-bottom: 80px;
+}
+
+div#documents div.isiDocs a.dokumenAsli {
+	display: flex;
+	justify-content: flex-start;
+	margin: 10px 0;
+	width: 100%;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	overflow-x: hidden;
+	height: auto;
+	border-right: 5px solid gray;
+	text-decoration: none;
+}
+
+div#documents div.isiDocs a.dokumenAsli div.thumb {
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	line-height: 100px;
+	background-color: navy;
+	overflow: hidden;
+}
+
+div#documents div.isiDocs a.dokumenAsli div.thumb i {
+	color: white;
+	font-size: 25px;
+}
+
+div#documents div.isiDocs a.dokumenAsli div.detail {
+	padding: 10px;
+}
+
+div#documents div.isiDocs a.dokumenAsli div.detail h3 {
+	margin-bottom: 10px;
+}
+
+div#documents div#tambahDocs form {
+	width: 100%;
+	overflow-x: hidden;
+	height: auto;
+	margin-top: 50px;
+}
+
+div#documents div#tambahDocs form box {
+	width: 100%;
+}
+
+div#documents div#tambahDocs form box h3 {
+	margin-bottom: 20px;
+}
+
+div#documents div#tambahDocs form input,
+div#documents div#tambahDocs form select,
+div#documents div#tambahDocs form select option {
+	width: 100%;
+	padding: 10px;
+	border: none;
+	outline: none;
+	border-bottom: 1px solid navy;
+	color: black;
+	background-color: white;
+	font-size: 20px;
+}
+
+div#documents div#tambahDocs form button {
+	width: 100%;
+	padding: 15px;
+	background-color: navy;
+	color: white;
+	border: none;
+	outline: none;
+	border-radius: 10px;
+	font-size: 20px;
+	font-weight: bolder;
+	transition: .1s;
+}
+
+div#documents div#tambahDocs form button:active {
+	transform: scale(.9);
+}
+
+div#documents div#izin h1 {
+	margin-bottom: 40px;
+}
+
+div#documents div#izin div.box {
+	width: 100%;
+	margin-bottom: 30px;
+}
+
+div#documents div#izin div.box h3 {
+	margin-bottom: 10px;
+}
+
+div#documents div#izin div.box p {
+	line-height: 23px;
+}
+
+/*INGFO*/
+
+div#info {
+	width: 100%;
+	margin: 0;
+	padding: 10px 10px 60px 10px;
+	box-sizing: border-box;
+}
+
+div#info div.content {
+	width: 100%;
+	text-align: center;
+}
+
+div#info div.content h1 {
+	margin: 60px auto 40px;
+}
+
+div#info div.content div.menuInfo {
+	padding: 10px;
+	background-color: navy;
+	border-radius: 15px;
+	box-sizing: border-box;
+	margin-bottom: 30px;
+}
+
+div#info div.content div.menuInfo div.item {
+	background-color: white;
+	border-radius: 10px;
+	padding: 15px;
+	text-align: left;
+	transition: .1s;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+div#info div.content div.menuInfo form.item {
+	background-color: white;
+	border-radius: 10px;
+	padding: 15px;
+	text-align: left;
+	transition: .1s;
+	cursor: pointer;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	align-content: center;
+}
+
+div#info div.content div.menuInfo div.item i {
+	font-size: 25px;
+	color: navy;
+}
+
+div#info div.content div.menuInfo form.item i {
+	font-size: 25px;
+	color: navy;
+}
+
+div#info div.content div.menuInfo div.item p {
+	font-weight: bolder;
+}
+
+div#info div.content div.menuInfo form.item button {
+	font-weight: bolder;
+	outline: none;
+	border: none;
+}
+
+div#info div.content div.menuInfo div#kePelanggaran,
+div#info div.content div.menuInfo div#kePrestasi,
+div#info div.content div.menuInfo div#infoSiswa,
+div#info div.content div.menuInfo div#kePelanggaranSaya,
+div#info div.content div.menuInfo div#keDataDiri,
+div#info div.content div.menuInfo div#kePrestasiSaya,
+div#info div.content div.menuInfo div.list,
+hr {
+	margin-bottom: 10px;
+}
+
+div#info div.content div.menuInfo div.list {
+	margin: 0;
+	border-radius: 0;
+}
+
+div#info div.content div.menuInfo div.item:active {
+	transform: scale(.9);
+}
+
+div#info div.content div.menuInfo form.item:active {
+	transform: scale(.9);
+}
+
+div#dataDiri,
+div#infoWali {
+	width: 100%;
+	box-sizing: border-box;
+	overflow-x: hidden;
+}
+
+div#dataDiri form,
+div#infoWali form {
+	width: 100%;
+}
+
+div#dataDiri form div.box,
+div#infoWali form div.box {
+	width: 100%;
+	text-align: left;
+	margin: 0 0 30px 0;
+}
+
+div#dataDiri form div.box input,
+div#infoWali form div.box input {
+	width: 100%;
+	outline: none;
+	border: none;
+	border-bottom: 1px solid navy;
+	margin-top: 5px;
+	padding: 5px;
+}
+
+div#dataDiri form div.box button,
+div#infoWali form div.box button {
+	width: 100%;
+	font-size: 20px;
+	padding: 15px;
+	border-radius: 10px;
+	background-color: navy;
+	color: white;
+	font-weight: bolder;
+	border: none;
+	outline: none;
+	transition: .1s;
+}
+
+div#dataDiri form div.box button:active,
+div#infoWali form div.box button:active {
+	transform: scale(.9);
+}

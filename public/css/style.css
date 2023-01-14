@@ -1,0 +1,172 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	background: #416D6D;
+}
+
+.swiper {
+  width: 600px;
+  height: 300px;
+}
+
+/* NAVIGATION */
+
+/* nav {
+	position: fixed;
+	bottom: 0;
+	right: 0;
+	left: 0;
+	padding: 20px 0;
+	background-color: #416D6D;
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: center;
+	z-index: 100000;
+}
+
+nav i {
+	color: white;
+	font-size: 30px;
+	text-shadow: 0px 0px 5px black;
+	cursor: pointer;
+	transition: .1s;
+}
+
+nav i:active {
+	transform: scale(.9);
+} */
+
+/* HOMEPAGE */
+
+/* div#home {
+	background-color: transparent;
+	width: 95%;
+	height: auto;
+	margin: 0 auto 100px auto;
+}
+
+div#home div.circle {
+	background-color: white;
+	border-radius: 50%;
+	width: 200px;
+	height: 200px;
+	margin: 60px auto;
+	text-align: center;
+	align-items: center;
+	align-content: center;
+	line-height: 200px;
+	box-shadow: 0px 0px 20px black;
+	border: 3px solid green;
+}
+
+div#home div.circle h1 {
+	font-size: 70px;
+	color: green;
+	font-family: "Montserray", sans-serif;
+}
+
+div#home p.name {
+	text-align: center;
+	color: white;
+	font-family: "Georgia", sans-serif;
+	font-size: 30px;
+	text-wrap: wrap;
+	text-shadow: 0px 0px 20px black;
+	margin-bottom: 30px;
+}
+
+div#home div.box {
+	background-color: #305454;
+	border-radius: 10px;
+	width: 90%;
+	margin: 0 auto 20px auto;
+	padding: 20px 10px;
+	color: white;
+	font-family: "Montserrat", sans-serif;
+}
+
+div#home div.box h3 {
+	text-align: center;
+}
+
+div#home div.box p {
+	line-height: 35px;
+	letter-spacing: 1px;
+} */
+
+/* DOCUMNETSPAGE */
+
+/* div#documents {
+	background-color: white;
+	color: black;
+	padding: 15px;
+}
+
+div#documents h1 {
+	font-family: "Montserrat", sans-serif;
+}
+
+div#documents div.doc {
+	height: 1000px;
+}
+
+div#documents i#tambahDokumen {
+	position: fixed;
+	bottom: 100px;
+	right: 20px;
+	text-align: center;
+	padding: 5px;
+	border-radius: 50%;
+	color: #416D6D;
+	background-color: white;
+	box-shadow: 0px 0px 10px gray;
+	margin: 0 auto;
+	font-size: 30px;
+	transition: .1s;
+}
+
+div#documents i#tambahDokumen:active {
+	transform: scale(.9);
+} */
+
+/* NOTESPAGE */
+
+/* div#notes {
+	background-color: white;
+	color: black;
+	padding: 15px;
+}
+
+div#notes h1 {
+	font-family: "Montserrat", sans-serif;
+}
+
+div#notes div.not {
+	height: 1000px;
+}
+
+div#notes i#tambahCatatan {
+	position: fixed;
+	bottom: 100px;
+	right: 20px;
+	text-align: center;
+	padding: 5px;
+	border-radius: 50%;
+	color: #416D6D;
+	background-color: white;
+	box-shadow: 0px 0px 10px gray;
+	margin: 0 auto;
+	font-size: 30px;
+	transition: .1s;
+}
+
+div#notes i#tambahCatatan:active {
+	transform: scale(.9);
+} */

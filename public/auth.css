@@ -1,0 +1,108 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: "Montserrat", sans-serif;
+}
+
+body {
+	width: 100%;
+	overflow-x: hidden;
+	margin: 0;
+	padding: 0;
+	height: auto;
+}
+
+div#login, div#register {
+	background-color: white;
+	width: 100%;
+	height: auto;
+	margin: 0;
+	padding: 50px 10px 50px 10px;
+	box-sizing: border-box;
+	z-index: 100;
+}
+
+div#login div.img,
+div#register div.img {
+	width: 100%;
+	text-align: center;
+}
+
+div#login img,
+div#register img {
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	text-align: center;
+	margin: 15px auto;
+}
+
+div#login h1,
+div#register h1 {
+	color: navy	;
+	text-align: center;
+}
+
+
+div#login form,
+div#register form {
+	width: 70%;
+	margin: 50px auto 15px auto;
+	overflow-x: hidden;
+}
+
+div#login form div.box,
+div#register form div.box {
+	margin-bottom: 20px;
+	width: 100%;
+	height: auto;
+}
+
+div#login form div.box input,
+div#register form div.box input,
+div#register form div.box select {
+	width: 100%;
+	outline: none;
+	border: none;
+	font-size: 20px;
+	padding: 10px;
+	border-bottom: 1px solid navy;
+	margin-bottom: 20px;
+}
+
+div#login form button,
+div#register form button {
+	width: 100%;
+	background-color: navy;
+	outline: none;
+	border: none;
+	font-size: 25px;
+	color: white;
+	border-radius: 10px;
+	padding: 15px;
+	box-sizing: border-box;
+	cursor: pointer;
+	transition: .1s;
+}
+
+div#login form button:active,
+div#register form button:active {
+	transform: scale(.9);
+}
+
+div#login p,
+div#register p {
+	width: 100%;
+	text-align: center;
+	line-height: 23px;
+	font-size: 15px;	
+}
+
+div#login p button,
+div#register p button {
+	outline: none;
+	background-color: transparent;
+	border: none;
+	color: navy;
+	font-size: 15px;
+}
